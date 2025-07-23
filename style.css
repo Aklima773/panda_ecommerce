@@ -11,6 +11,7 @@
     width: 1280px;
     margin:0 auto;
     margin-bottom: 64px;
+     margin-top: 49px;
    
 }
 
@@ -19,7 +20,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 49px;
+    
     align-items: center;
 }
 
@@ -121,3 +122,75 @@ font-weight: 600;
   transition: 0.5s;
 }
 
+
+/* banner part start */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(254, 234, 233, 1) ;
+    text-align: left;
+    align-items: flex-start;
+    /* padding: 28px; */
+    gap: 5px;
+    border-radius:25px ;
+}
+
+
+.left-side{
+    width: 554px;
+    margin: 68px  46px;
+    
+
+}
+.left-side p{
+    max-width: 456px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: rgb(78, 78, 78);
+    line-height: 26px;
+}
+
+.left-side .price-tag{
+    font-size: 41px;
+    font-weight: 500;
+    color: rgb(255, 19, 111);
+    text-align: left;
+}
+.left-side h1{
+    font-size: 52px;
+    font-weight: 700;
+    color:rgb(31, 31, 31) ;
+}
+
+
+.right-side img{
+    width: 402px;
+    height: 378px;
+    margin: 38px 63px;
+}
+
+.btn-primary{
+    border-radius: 6px;
+
+    /* Linear */
+   background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+   border: none;
+   margin: 8px 0px;
+   padding: 14px 20px;
+   color: rgb(255, 255, 255);
+   font-size: 16px;
+   font-weight: 500;
+   
+   
+}
+.arrow{
+    margin-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+
+
+/* Responsive design */
