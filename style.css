@@ -11,8 +11,33 @@
     width: 1280px;
     margin:0 auto;
     margin-bottom: 64px;
-     margin-top: 49px;
+    margin-top: 49px;
    
+}
+
+.container2{
+    width: 1128px;
+    margin:0 auto;
+}
+
+.btn-primary{
+    border-radius: 6px;
+
+    /* Linear */
+   background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+   border: none;
+   margin: 8px 0px;
+   padding: 14px 20px;
+   color: rgb(255, 255, 255);
+   font-size: 16px;
+   font-weight: 500;
+   
+   
+}
+.arrow{
+    margin-left: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
 }
 
 
@@ -171,26 +196,61 @@ font-weight: 600;
     margin: 38px 63px;
 }
 
-.btn-primary{
-    border-radius: 6px;
 
-    /* Linear */
-   background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
-   border: none;
-   margin: 8px 0px;
-   padding: 14px 20px;
-   color: rgb(255, 255, 255);
-   font-size: 16px;
-   font-weight: 500;
-   
+
+
+/* Category Part style */
+
+.category h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
    
 }
-.arrow{
-    margin-left: 10px;
-    color:rgb(255, 255, 255);
-    font-size: 16px;
+
+.categories-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+.category-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    width: 359px;
+    border-radius:15px;
+    margin-top: 24px;
 }
 
+.category-item:nth-child(1){
+ background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+
+.category-item:nth-child(2){
+ 
+   /* Linear */
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+  
+}
+
+.category-item:nth-child(3){
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+   
+}
+
+.category-item h1{
+    font-size: 36px;
+    font-weight: 500;   
+     margin: 33px 46px;
+    color:rgb(255, 255, 255) ;
+}
+
+.category-item img{
+    width: 69px;
+    height: 90px;
+    margin: 15px 49px;
+}
 
 
 /* Responsive design */
